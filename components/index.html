@@ -20,28 +20,18 @@
   <body>
     <section class="header">
       <nav>
-        <a href="index.html"><img src="./img/masjidnobg.png" alt="" /></a>
+        <a href="index.html"><img src="../assest/img/masjidnobg.png" alt="" /></a>
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">ARTIKEL</a></li>
-            <li><a href="">BLOG</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Masjid</a></li>
+            <li><a href="">Sejarah Muslim</a></li>
           </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu ()"></i>
       </nav>
-
-      <div class="text-box">
-        <h1>Masjid</h1>
-        <p>
-          Masjid adalah tempat ibadah bagi umat Muslim. Masjid merupakan pusat
-          spiritual dan sosial dalam kehidupan umat Islam.<br />
-          Di masjid, umat Muslim berkumpul untuk melaksanakan salat lima waktu,
-          salat Jumat, dan ibadah-ibadah lainnya.
-        </p>
-      </div>
     </section>
 
     <!-- artikel -->
@@ -51,9 +41,9 @@
       <br>
       <div class="card-deck">
         <div class="card">
-          <a href="https://www.masjidinfo.net/2019/07/masjid-al-ghamamah-madinah.html" target="_blank">
+          <a href="./Al-gamamah/gamamah.html" target="_blank">
           <img
-            src="./img-masjid/Masjid Al-Ghamamah.jpg"
+            src="../assest/masjid/Masjid Al-Ghamamah.jpg"
             class="card-img-top"
             alt="..."
           />
@@ -66,9 +56,9 @@
         </a>
         </div>
         <div class="card">
-          <a href="https://www.masjidinfo.net/2020/01/masjid-miqot-bir-ali-madinah.html" target="_blank">
+          <a href="https://www.masjidinfo.net/2019/07/masjid-abu-bakar-siddiq-ra-madinah.html" target="_blank">
           <img
-            src="./img-masjid/Masjid Abu Bakar Siddiq Madinah.jpg"
+            src="../assest/masjid/Masjid Abu Bakar Siddiq Madinah.jpg"
             class="card-img-top"
             alt="..."
             
@@ -84,7 +74,7 @@
         <div class="card">
           <a href="https://www.masjidinfo.net/2020/01/masjid-miqot-bir-ali-madinah.html" target="_blank">
           <img
-            src="img-masjid/masjid_miqot_bir_ali.jpg"
+            src="../assest/masjid/masjid_miqot_bir_ali.jpg"
             class="card-img-top"
             alt="..."
           />
@@ -105,14 +95,14 @@
   <br>
   <div class="card-masjid">
     <div class="box">
-      <a href="#" target="_blank">
+      <a href="https://www.masjidinfo.net/2011/03/masjid-islamic-center-washington-dc.html" target="_blank">
         <img
-          src="path/to/image1.jpg"
+          src="../assest/masjid/islamic-centre-washington-dc.jpg"
           class="box-img"
-          alt="Masjid Al-Ghamamah"
+          alt="Masjid #1"
         />
         <div class="box-body">
-          <h5 class="box-title">Masjid Al-Ghamamah</h5>
+          <h5 class="box-title">Masjid Islamic Center Washington DC, Amerika Serikat</h5>
           <p class="box-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, dolorem!
           </p>
@@ -127,7 +117,7 @@
         <img
           src="path/to/image2.jpg"
           class="box-img"
-          alt="Masjid Al-Ghamamah"
+          alt="Masjid #2"
         />
         <div class="box-body">
           <h5 class="box-title">Masjid Al-Ghamamah</h5>
@@ -303,15 +293,14 @@
 </div>
 
 
-    
+<div class="btn-child">
+<a href="" class="button-link">
+  <button class="button">Masjid lainnya</button>
+</a>
+</div>
+
+
     <!-- javaScript for Toggle Menu -->
-    <script>
-      var navLinks = document.getElementById("navLinks");
-      function showMenu() {
-        navLinks.style.right = "0";
-      }
-      function hideMenu() {
-        navLinks.style.right = "-200px";
-      }
+    <script src="MenuToggle.js">
     </script>
 </html>
