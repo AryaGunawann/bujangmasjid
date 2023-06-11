@@ -186,6 +186,7 @@ a:hover {
 .card-masjid {
   display: inline-block;
   width: 200px;
+  height: 100%;
   margin: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -195,7 +196,8 @@ a:hover {
 
 .box-img {
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
 }
 
 .box-body {
@@ -225,7 +227,6 @@ a:hover {
   color: #555;
 }
 
-/* tombol Masjid lainnya */
 .button-link {
   width: 100%;
   display: flex;
